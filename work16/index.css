@@ -10,7 +10,7 @@
     height: 400px;
     position: absolute;
     top: 0;
-    left: 390px;
+    left: 360px;
     border: 1px solid #ccc;
     overflow: hidden;
     display: none;
@@ -28,13 +28,13 @@
 }
 
 .small {
-    position: relative
+    position: relative;
 }
 
 .box img {
     vertical-align: top;
 }
 
- #bigBox img {
-     position: absolute
- }
+#bigBox img {
+    position: absolute;
+}

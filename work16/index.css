@@ -1,24 +1,24 @@
 .box {
-    width: 350px;
-    height: 350px;
+    width: 567px;
+    height: 567px;
     border: 1px solid #ccc;
     position: relative;
 }
 
 .big {
-    width: 400px;
-    height: 400px;
+    width: 375px;
+    height: 375px;
     position: absolute;
     top: 0;
-    left: 360px;
-    border: 1px solid #ccc;
+    left: 767px;
+    border: 2px solid #ccc;
     overflow: hidden;
     display: none;
 }
 
 .mask {
-    width: 175px;
-    height: 175px;
+    width: 188px;
+    height: 188px;
     background: rgba(255,255,0, .4);
     position: absolute;
     top: 0;

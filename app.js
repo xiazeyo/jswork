@@ -63,7 +63,7 @@ var server = ws.createServer(function (conn) {
             broadcast(server,conn.name+'上线了。')
             return
         }
-        broadcast(server,conn.name+':'+str)
+        broadcast(server,conn.name+':'+str) 
       })
       conn.on('connect',function (code, reason) {
           console.log("Connection closed")
